@@ -42,8 +42,7 @@ React 19 · TypeScript · Vite · GSAP for the two long scroll sequences (Hanuma
 The `gh-pages` branch holds the built site and is served by GitHub Pages. To republish after changes:
 
 ```bash
-npm run build
-npx gh-pages -d dist
+npm run deploy    # builds and pushes dist/ to the gh-pages branch
 ```
 
 ## Licence
